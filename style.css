@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  border: 1px solid black;
+  padding: 20px;
+  background-image: url(images/Golden_Gate_Bridge_as_seen_from_Battery_East.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 498px;
+  text-align: center;
+}
+
+.header h1 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 45px;
+  color: white;
+  padding-bottom: 30px;
+  padding-top: 200px;
+  text-shadow: 3px 3px 3px #8120fc;
+}
+a {
+  background-color: #e6ae65;
+  color: white;
+  width: 110px;
+  height: 40px;
+  display: inline-block;
+  line-height: 40px;
+  text-decoration: none;
+  border-radius: 10px;
+}
